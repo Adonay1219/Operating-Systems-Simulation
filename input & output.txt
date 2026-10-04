@@ -1,0 +1,103 @@
+INPUT_OUTPUT.txt
+
+the input and output based on different cases:
+
+1. CONGESTION CONTROL (AIMD)
+
+
+TEST CASE 1
+
+Input:
+No user input required
+
+Output:
+
+Transmission Round 1
+Congestion Window Size: 2
+
+Transmission Round 2
+Congestion Window Size: 3
+
+Transmission Round 3
+Congestion Window Size: 4
+
+Transmission Round 4
+Congestion Window Size: 5
+
+Transmission Round 5
+Congestion Window Size: 6
+
+Transmission Round 6
+Congestion Detected!
+Congestion Window Size: 3
+
+
+
+2. VIRTUAL MEMORY SYSTEM
+
+
+TEST CASE 1
+
+Input:
+2050
+
+Output:
+Page Number: 2
+Offset: 2
+Frame Number: 1
+Physical Address: 1026
+
+
+TEST CASE 2
+
+Input:
+3500
+
+Output:
+Page Number: 3
+Offset: 428
+Frame Number: 7
+Physical Address: 7596
+
+
+TEST CASE 3
+
+Input:
+5000
+
+Output:
+Invalid Page Number!
+
+
+
+3. LRU CACHE REPLACEMENT
+
+
+TEST CASE 1
+
+Input:
+1 2 3 1 4 5
+
+Output:
+Cache: 1
+Cache: 2 1
+Cache: 3 2 1
+Cache: 1 3 2
+Cache: 4 1 3
+Cache: 5 4 1
+
+
+TEST CASE 2
+
+Input:
+7 0 1 2 0 3 0 4
+
+Output:
+Cache: 7
+Cache: 0 7
+Cache: 1 0 7
+Cache: 2 1 0
+Cache: 0 2 1
+Cache: 3 0 2
+Cache: 0 3 2
+Cache: 4 0 3
