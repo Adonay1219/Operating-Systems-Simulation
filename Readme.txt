@@ -1,4 +1,4 @@
-## Operating Systems and System Programming Simulations
+# Operating Systems and System Programming Simulations
 
  Academic Project
 This project was developed as a group assignment for the Operating Systems and System Programming course at Mekelle University, Ethiopian Institute of Technology–Mekelle (EITM), Department of Software Engineering.
