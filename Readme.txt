@@ -1,4 +1,4 @@
-Operating Systems and System Programming Simulations
+## Operating Systems and System Programming Simulations
 
  Academic Project
 This project was developed as a group assignment for the Operating Systems and System Programming course at Mekelle University, Ethiopian Institute of Technology–Mekelle (EITM), Department of Software Engineering.
@@ -15,7 +15,7 @@ Group: 2 (Unassigned)
 Submission Date: May 6, 2026
 
 
- Project Overview
+## Project Overview
 
 This project implements simulations of three important concepts related to operating systems and system programming:
 
@@ -26,7 +26,7 @@ This project implements simulations of three important concepts related to opera
 The project includes problem analysis, algorithms, pseudocode, C++ implementations, and sample input/output.
 
 
- 1. Congestion Control
+ ##1. Congestion Control
 This program simulates network congestion control using the Additive Increase Multiplicative Decrease (AIMD) algorithm.
 
  How it works
@@ -43,7 +43,7 @@ Congestion Detected!
 Congestion Window Size: 3
 
 
- 2. Virtual Memory Management
+ ##2. Virtual Memory Management
 
 This program implements a simplified **paging-based virtual memory system**.
 
@@ -81,7 +81,7 @@ Output:
 Invalid Page Number!
 
 
- 3. Cache Replacement Policy
+ ##3. Cache Replacement Policy
 
 This program implements the Least Recently Used (LRU) cache replacement policy.
 
